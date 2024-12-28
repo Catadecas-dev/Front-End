@@ -1,7 +1,7 @@
 import React from "react";
 import { useCart } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
-import styles from "./CartSidebar.module.css";
+import styles from "./CartSideBar.module.css";
 
 const CartSidebar = ({ isOpen, onClose, showToast }) => {
   const { cart, addToCart, decreaseQuantity, removeFromCart } = useCart();
@@ -40,7 +40,7 @@ const CartSidebar = ({ isOpen, onClose, showToast }) => {
                       <div className={styles["cart-modal__quantity-controls"]}>
                       <button
                         className={styles["cart-modal__button"]}
-                        onClick={() => decreaseQuantity(item.id)} // Llama a la función del contexto
+                        onClick={() => decreaseQuantity(item.id)} 
                       >
                         -
                       </button>
