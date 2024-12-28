@@ -1,0 +1,41 @@
+.landing-container {
+  height: calc(100vh - 60px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.5); 
+  color: #110f0f; 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+}
+
+.content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #0056b3;
+}
